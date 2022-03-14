@@ -32,7 +32,7 @@ const projects = [
 
 export const PortFolio = () => {
     return(
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-white" id='portfolio'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="lg:text-center">
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -51,7 +51,7 @@ export const PortFolio = () => {
                         <img src={project.image} alt={project.name} />
                     </div>
                     <div className="project_card_content">
-                        <h3 className="project_card_title">{project.name}</h3>
+                        <h3 className="project_card_title ml-16 text-lg leading-6 font-medium text-gray-900">{project.name}</h3>
                         <p className="project_card_description">{project.description}</p>
                     </div>    
               </div>
