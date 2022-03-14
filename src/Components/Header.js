@@ -5,9 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Skills', href: '#skills' },
-  { name: 'Portfolio', href: '#portfolio' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Portfolio', href: '#portfolio' }
 ]
 
 export const Header = () =>{
@@ -51,9 +49,9 @@ export const Header = () =>{
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  {/* <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
                     Log in
-                  </a>
+                  </a> */}
                 </div>
               </nav>
             </div>
@@ -98,12 +96,12 @@ export const Header = () =>{
                       </a>
                     ))}
                   </div>
-                  <a
+                  {/* <a
                     href="#"
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Log in
-                  </a>
+                  </a> */}
                 </div>
               </Popover.Panel>
             </Transition>
@@ -115,10 +113,10 @@ export const Header = () =>{
                 <span className="block xl:inline">Building digital products, </span>{' '}
                 <span className="block text-indigo-600 xl:inline">brands, and experiences.</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
-              </p>
+              </p> */}
               {/* <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
