@@ -1,9 +1,9 @@
 
-import { AnnotationIcon, LightningBoltIcon, DeviceTabletIcon, DesktopComputerIcon} from '@heroicons/react/outline'
+import { AnnotationIcon, LightningBoltIcon, DeviceTabletIcon, DesktopComputerIcon, ShoppingCartIcon, SupportIcon } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Responsive Develop',
+    name: 'Responsive Web Develop',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: DeviceTabletIcon,
@@ -15,16 +15,16 @@ const features = [
     icon: DesktopComputerIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'Shopify Development',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: LightningBoltIcon,
+    icon: ShoppingCartIcon,
   },
   {
-    name: 'Mobile notifications',
+    name: 'Shopify Maintenance',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: AnnotationIcon,
+    icon: SupportIcon,
   },
 ]
 
