@@ -51,7 +51,7 @@ export const PortFolio = () => {
                         <img src={project.image} alt={project.name} />
                     </div>
                     <div className="project_card_content">
-                        <h3 className="project_card_title ml-16 text-lg leading-6 font-medium text-gray-900">{project.name}</h3>
+                        <h3 className="project_card_title">{project.name}</h3>
                         <p className="project_card_description">{project.description}</p>
                     </div>    
               </div>
