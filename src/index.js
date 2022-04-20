@@ -7,5 +7,5 @@ import './index.css';
 
 ReactDOM.render(
   <Content />,
-  document.getElementById('root')
+  document.getElementById('app')
 );
