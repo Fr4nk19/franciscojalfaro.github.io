@@ -1,18 +1,14 @@
 import React from 'react';
-import { FeatSection } from './Components/FeatSection';
-import { Footer } from './Components/Footer';
-import { Header } from './Components/Header';
-import { PortFolio } from './Components/Portfolio';
-
-
+import {DarkHeader} from './Components/DarkHeader';
+import {DarkBanner} from './Components/DarkBanner';
+import {Experience} from './Components/Experience';
 export const Content = () => {
   
     return (
       <>
-        <Header/>
-        <FeatSection/>  
-        <PortFolio />
-        <Footer/>
+        <DarkHeader/>
+        <DarkBanner/>
+        <Experience/>
       </>
   );
 
